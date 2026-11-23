@@ -1,0 +1,55 @@
+{
+  "name": "opencode-msg-outline",
+  "version": "0.0.1",
+  "description": "OpenCode 2 TUI plugin: a sidebar outline of user messages with full-history paging, click-to-jump, and a loading veil.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-tui",
+    "tui",
+    "outline",
+    "messages",
+    "sidebar"
+  ],
+  "engines": {
+    "opencode": ">=2.3.2"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./tui": "./src/tui.tsx"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.3.2"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.8.4",
+    "@opentui/solid": ">=0.8.4",
+    "solid-js": "^1.9.12"
+  },
+  "devDependencies": {
+    "@opencode/theme": "2.3.2",
+    "@opentui/core": "0.8.4",
+    "@opentui/solid": "0.8.4",
+    "@types/node": "^26.6.6",
+    "solid-js": "1.9.12",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PazzaRorschach/opencode-msg-outline.git"
+  },
+  "homepage": "https://github.com/PazzaRorschach/opencode-msg-outline#readme",
+  "bugs": {
+    "url": "https://github.com/PazzaRorschach/opencode-msg-outline/issues"
+  }
+}
